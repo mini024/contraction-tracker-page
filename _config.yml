@@ -2,18 +2,18 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6444572609                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 6469053418                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                     # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Swim Trends is a dashboard to visualize your workout metrics in a summary view and it creates a trends page to see the change between workouts.
+app_description                           : Contraction Tracker helps you record your contractions and their frequency. 
 
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
@@ -22,12 +22,12 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Jessic Cavazos Rose                              
-your_link                                 :                 
-your_city                                 :                                 
+your_link                                 :              
+your_city                                 : Amsterdam, NL                          
 email_address                             : 
 facebook_username                         :                                           
 instagram_username                        : 
-twitter_username                          : mini024
+twitter_username                          : 
 github_username                           : mini024
 youtube_username                          :
 
@@ -35,18 +35,18 @@ youtube_username                          :
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
-
-  - title                                 : Recent Swim
-    description                           : Using your workout data we display a summary with the relevant metrics.
-    fontawesome_icon_name                 : clock
     
-  - title                                 : Trends
-    description                           : Preview your swim metric trends to better understand your progress.
-    fontawesome_icon_name                 : chart-line
+  - title                                 : Track your contractions
+    description                           : Tap start when your contraction begins.
+    fontawesome_icon_name                 : play
 
   - title                                 : History
-    description                           : Access all your swims and view their summaries. 
+    description                           : View your past contractions and the frequency.
     fontawesome_icon_name                 : history
+
+  - title                                 : Clear
+    description                           : Erase your history and start again
+    fontawesome_icon_name                 : trash
 
 
 
@@ -56,14 +56,14 @@ topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
 cover_image                               :                     # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#7467CB"
+cover_overlay_color                       : "#fd9f9dff"
 cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#54befaff"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -72,7 +72,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#7467CB"
+feature_icons_foreground_color            : "#54befaff"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"

@@ -1,23 +1,19 @@
 ---
 layout: page
-title: What's New
-include_in_header: true
+title: About
+include_in_header: false
 ---
 
 <br>
 
 ### `Latest`
-# **Version 1.0.1**
-This first version of Swim Trends, this version handles loading the workouts from HealthKit and analizes it to calculate summaries and trends. 
+# **Version 1.0**
+This is the first version of Contraction Tracker.
 
-#### Pages
-- Recent Swim: Shows the summary of the most recent swim workout.
-- Trends: Shows a series of line graphs using the swim metrics.
-- Workouts: Contains a list of all the workouts and their summaries.
+#### Features
+- Track your contractions.
+- View the contractions length and frequency.
+- Clear all contractions.
 
-#### Displayed Metrics
-- Distance
-- Time
-- Calories
-- Laps
-- SWOLF
+# **App Icon**
+The app embryo icon was created by Kalashnyk - [Flaticon](https://www.flaticon.com/free-icons/embryo)
